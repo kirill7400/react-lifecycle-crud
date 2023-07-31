@@ -1,0 +1,46 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crud {
+  width: 700px;
+  height: 600px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.del {
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.add {
+  display: flex;
+  gap: 10px;
+}
